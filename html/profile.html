@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш профиль</title>
+    <link rel="stylesheet" href="/css/profile.css">
+    <link rel="stylesheet" href="/css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="header_logo">
+                <a href="index.html" class="header_logo_subtitle">
+                    магазин комиксов
+                </a>
+                <a href="index.html" class="header_logo_title">
+                    Комиксбург
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="введите текст для поиска" class="search_window">
+                <button type="submit" class="search_window_button">
+            </div>
+            <div class="header_menu menu">
+                <nav class="menu_body">
+                    <ul class="menu_list">
+                        <li class="menu_item_icon">
+                            <a href="#" class="notifications">
+                                <img src="../images/notofication.png" alt="" class="notification">
+                            </a>
+                        </li>
+                        <li class="menu_item_icon">
+                            <a href="basket.html" class="basket">
+                                <img src="../images/basket.png" alt="" class="basket">
+                            </a>  
+                        </li>
+                        <li class="menu_item_icon">
+                            <a href="profile.html" class="profile">
+                                <img src="../images/profile.png" alt="" class="profile">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="profile_title">
+            <img src="/images/profile.png" alt="" class="profile_avatar">
+            <h1 class="name_profile">Ваше имя</h1>
+            <button onclick="location.href='index.html'" class="return_main">Вернуться назад</button>
+        </div>
+        <div class="profile_option">
+            <button class="settings_profile option_btn">Настройки профиля</button>
+            <button class="basket_profile option_btn">Ваша корзина
+                <p class="bsk_text pur_text">Здесь находятся отложенные товары</p>
+            </button>
+            <div class="wallet_btn">
+                <a href="basket.html" class="wallet_btn_price">0 ₽</a>
+                <a href="basket.html" class="wallet_text">Кошелёк</a>
+                <button onclick="location.href='index.html'" class="replenish option_btn">Пополнить</button>
+            </div>
+            <button class="purchases option_btn">Покупки
+                <p class="pur_text">Здесь можно купить что-то заново</p>
+            </button>
+            <button class="waiting_list option_btn">Лист ожидания</button>
+            <button class="support option_btn">Поддержка
+                <p class="bsk_text pur_text">Работаем круглосуточно
+                </p>
+            </button>
+            <button class="return_product option_btn">Возврат товара</button>
+            <div class="favorit_product">
+                <p class="fp_title">Любимые товары</p>
+                <div class="favorit_products_block">
+                    <div class="block_item">
+                        <img src="..\images\1035639310.jpg" alt="" class="image_comics">
+                        <h3 class="Name_comics">Книга мечты</h3>
+                        <button onclick="location.href='product_page.html'" class="buy">Купить</button>
+                    </div>
+                    <div class="block_item">
+                        <img src="..\images\1035639310.jpg" alt="" class="image_comics">
+                        <h3 class="Name_comics">Книга мечты</h3>
+                        <button onclick="location.href='product_page.html'" class="buy">Купить</button>
+                    </div>
+                    <div class="block_item">
+                        <img src="..\images\1035639310.jpg" alt="" class="image_comics">
+                        <h3 class="Name_comics">Книга мечты</h3>
+                        <button onclick="location.href='product_page.html'" class="buy">Купить</button>
+                    </div>
+                </div>
+              </div> 
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="site_info">
+            <p class="site_info_text">© 2025 Магазин комиксов "Комиксбург" </p>
+            <p class="site_info_text">Сайт сделал Филатов Вячеслав Владимирович, студент 4а ИСиП</p>
+        </div>
+    </footer>
+</body>
+</html>
